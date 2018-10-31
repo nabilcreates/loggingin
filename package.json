@@ -1,0 +1,14 @@
+{
+  "name": "loginscript",
+  "version": "1.0.0",
+  "description": "it logs time of login",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nabil Ridhwanshah",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "date-and-time": "^0.6.3"
+  }
+}
