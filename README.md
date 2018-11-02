@@ -1,6 +1,17 @@
-## !!! Run npm install to install all dependencies !!!
+# log(in)
+> A mini 'program' to log everytime the user logs in**
 
-# Checklist (For configuration)
-1) Make sure to check the files script.js and check the path for writing (More info given in file)
-2) Make sure that the run.sh file points to the correct path (which is to script.js). So it should look something like this: "node ~/Documents/loginscript/script.js"
-3) Run the file: bash ./run.sh , if an error come out, please recheck this checklist or else, please report an issue above!
+** To make it work, user must run `'node run.js'` everytime on startup (can be automated according to OS)
+
+# Usage
+-   `npm install`
+-   `node run.js`
+-   It will output to the [`outputFileName`].txt specified on the config.json file (tutorial below)
+
+# Config.json
+- ### Config files is stored at config.json
+    -   silentmode: `boolean` (default: `false`)
+        -   Enables console output after writing
+    
+    -   outputFileName: `string` (default `'output'`)
+        -   Name of the output file. If it is `'logging'` then it will output as `'logging.txt'`
